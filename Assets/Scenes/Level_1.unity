@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -285,8 +286,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootPoint: {fileID: 1699413452}
   bulletPrefab: {fileID: 6964130916098274192, guid: 97ae8845be5ec5046bf258682d9bbb61, type: 3}
-  shootForce: 50
-  cooldownTime: 3
+  shootForce: 60
+  cooldownTime: 1
 --- !u!1 &577707560
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b6235ce22ba07a143b5ca83fc2745b4c, type: 2}
+  - {fileID: 2100000, guid: a02e52ba233ec9b4fa582d2a51925b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
